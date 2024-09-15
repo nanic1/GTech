@@ -2,7 +2,7 @@
 
 
  - O sistema deve apresentar a listagem dos projetos dos alunos
-     -o sistema deve apresentar uma listagem dos projetos através de páginas para facilitar a referência
+     - o sistema deve apresentar uma listagem dos projetos através de páginas para facilitar a referência
      - deve apresentar também um botão de voltar para a página referenciada e não para a página zero
      -⁠o sistema deve organizar a exibição dos projetos em colunas:
  - O sistema deve apresentar a linguagem de programação, as tecnologias e ferramentas para a criação dos projetos
