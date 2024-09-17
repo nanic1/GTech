@@ -22,4 +22,8 @@
  # O sistema deve apresentar o perfil, a função individual e o período de cada integrante do projeto
     - Ao lado dos nomes e contatos dos integrantes, apresentar a função que cada um teve naquele determinado projeto
 # O sistema deve apresentar a linguagem de programação, as tecnologias e ferramentas para a criação dos projetos (após a descrição do projeto)
+    - Se algum estudo ou referência for ultilizado para a realização do projeto isso deverá ser apresentado e com o link para essa fonte
+    - A linguagem deve ser referenciada com forma de simbolos e de forma não escrita
 # O sistema deve apresentar o Email para contato e o nome dos integrantes do projeto, ou da plataforma. (após a descrição do projeto, embaixo das linguagens e tecnologias)
+    - A forma de contato com os integrantes deve ser adicionada pelo ADM 
+    - Essa forma de contato dever ser facil de se localizar dentro do perfil
