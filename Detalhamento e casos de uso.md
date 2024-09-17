@@ -29,7 +29,7 @@
     - Essa forma de contato dever ser facil de se localizar dentro do perfil
 
 
-#Detalhamento dos requisitos não funcionais:
+# Detalhamento dos requisitos não funcionais:
 
 ## O sistema deverá utilizar uma API de Banco de dados armazenando os projetos
 
