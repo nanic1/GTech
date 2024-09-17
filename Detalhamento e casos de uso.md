@@ -27,3 +27,19 @@
 # O sistema deve apresentar o Email para contato e o nome dos integrantes do projeto, ou da plataforma. (após a descrição do projeto, embaixo das linguagens e tecnologias)
     - A forma de contato com os integrantes deve ser adicionada pelo ADM 
     - Essa forma de contato dever ser facil de se localizar dentro do perfil
+
+
+🔦Detalhamento dos requisitos não funcionais:
+
+ # O sistema deverá utilizar uma API de Banco de dados armazenando os projetos
+
+# O sistema deve ser compatível com os principais navegadores e dispositivos móveis, incluindo computadores, tablets e celulares, fazer um layout responsivo
+
+# O sistema deverá possuir um design inspirado na IBMEC
+- manter a base da identidade visual da instituição
+- deve respeitar a paleta de cores do IBMEC
+- o conteúdo do site deve ser adequado para a instituição    
+
+
+# O sistema deve ser feito por javascript, react
+-
