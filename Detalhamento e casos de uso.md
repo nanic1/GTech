@@ -20,7 +20,6 @@
  # O sistema deverá ter uma explicação do que se trata cada projeto e duração do mesmo
      - Ao clicar no botão "ver mais", o sistema deve abrir uma nova aba e apresentar mais imagens do projeto e uma sessão de descrição geral em texto embaixo das imagens 
  # O sistema deve apresentar o perfil, a função individual e o período de cada integrante do projeto
-    - O sistema deve apresentar a linguagem de programação, as tecnologias e ferramentas para a criação dos projetos (após a descrição do projeto)
-    - O sistema deve apresentar o Email para contato e o nome dos integrantes do projeto, ou da plataforma. (após a descrição do projeto, embaixo das linguagens e tecnologias)
     - Ao lado dos nomes e contatos dos integrantes, apresentar a função que cada um teve naquele determinado projeto
-
+# O sistema deve apresentar a linguagem de programação, as tecnologias e ferramentas para a criação dos projetos (após a descrição do projeto)
+# O sistema deve apresentar o Email para contato e o nome dos integrantes do projeto, ou da plataforma. (após a descrição do projeto, embaixo das linguagens e tecnologias)
