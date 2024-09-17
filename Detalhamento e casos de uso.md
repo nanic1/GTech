@@ -24,6 +24,7 @@
      
  ## O sistema deve apresentar o perfil, a função individual e o período de cada integrante do projeto
     - Ao lado dos nomes e contatos dos integrantes, apresentar a função que cada um teve naquele determinado projeto
+    - O sistema deve conter um link "sobre nós" que vai especificar os detalhes sobre os integrantes
     
  ## O sistema deve apresentar a linguagem de programação, as tecnologias e ferramentas para a criação dos projetos (após a descrição do projeto)
     - Se algum estudo ou referência for ultilizado para a realização do projeto isso deverá ser apresentado e com o link para essa fonte
