@@ -18,7 +18,8 @@ Pré-condição: Clicar no botão "ver mais" para abrir o detalhamento.<br>
 Fluxo Principal:
 * O usuário localiza o projeto desejado na lista.
 * O usuário clica no botão "ver mais".
-* O sistema exibe os detalhes do projeto, como descrição, responsável, data de conclusão, etc.<br>
+* O sistema exibe os detalhes do projeto, como descrição, responsável, data de conclusão, etc.
+
 Pós-condição: O usuário visualiza as informações detalhadas do projeto.
 
 ## Filtrar Projetos
@@ -30,7 +31,8 @@ Fluxo Principal:
 * O usuário clica no botão "filtrar".
 * O sistema exibe as opções de filtros.
 * O usuário escolhe os critérios de filtro (ex.: curso, data, tecnologia).
-* O sistema atualiza a lista com os projetos filtrados.<br>
+* O sistema atualiza a lista com os projetos filtrados.
+
 Pós-condição: A lista de projetos é exibida de acordo com os filtros aplicados.
 
 ## Pesquisar Projetos
@@ -40,7 +42,8 @@ Pré-condição: O usuário deve clicar no botão da barra de pesquisa.<br>
 Fluxo Principal:
 * O usuário clica na barra de pesquisa.
 * O usuário insere palavras-chave relacionadas ao projeto.
-* O sistema exibe os projetos que correspondem aos termos inseridos.<br>
+* O sistema exibe os projetos que correspondem aos termos inseridos.
+
 Pós-condição: O usuário visualiza os projetos que correspondem à pesquisa realizada.
 
 ## Entrar em Contato com o Aluno
@@ -51,7 +54,8 @@ Fluxo Principal:
 * O contratante visualiza a lista de projetos.
 * O contratante clica em "ver mais" em um projeto de interesse.
 * O sistema exibe os detalhes do projeto, incluindo o e-mail do aluno responsável.
-* O contratante copia o e-mail e entra em contato.<br>
+* O contratante copia o e-mail e entra em contato.
+
 Pós-condição: O contratante obtém o e-mail do aluno para iniciar contato.
 
 ## Login do Administrador
@@ -61,7 +65,8 @@ Pré-condição: O administrador deve ter uma conta válida no sistema e clicar 
 Fluxo Principal:
 * O administrador acessa a página de login.
 * O administrador insere suas credenciais.
-* O sistema verifica as credenciais e concede acesso ao painel administrativo.<br>
+* O sistema verifica as credenciais e concede acesso ao painel administrativo.
+
 Pós-condição: O administrador é autenticado e tem acesso ao painel de administração.
 
 ## Adicionar Novo Projeto
@@ -73,7 +78,8 @@ Fluxo Principal:
 * O administrador clica no botão "novo projeto".
 * O sistema exibe um formulário para o preenchimento dos dados do projeto.
 * O administrador insere os dados do projeto e clica em "salvar".
-* O sistema armazena o novo projeto.<br>
+* O sistema armazena o novo projeto.
+
 Pós-condição: O novo projeto é adicionado ao sistema.
 
 ## Editar Projeto
@@ -86,7 +92,8 @@ Fluxo Principal:
 * O administrador clica em "editar".
 * O sistema exibe o formulário com os dados do projeto.
 * O administrador ajusta os dados e clica em "salvar".
-* O sistema atualiza o projeto no banco de dados.<br>
+* O sistema atualiza o projeto no banco de dados.
+
 Pós-condição: As informações do projeto são atualizadas no sistema.
 
 ## Excluir Projeto
@@ -99,5 +106,6 @@ Fluxo Principal:
 * O administrador clica em "excluir".
 * O sistema solicita confirmação.
 * O administrador confirma a exclusão.
-* O sistema remove o projeto do banco de dados.<br>
+* O sistema remove o projeto do banco de dados.
+
 Pós-condição: O projeto é removido do sistema.
