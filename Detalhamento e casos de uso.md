@@ -1,4 +1,4 @@
-#🔦 Detalhamento dos requisitos funcionais:
+# Detalhamento dos requisitos funcionais:
 
 
    # O sistema deve apresentar a listagem dos projetos dos alunos
