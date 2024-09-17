@@ -1,7 +1,7 @@
 # CASOS DE USO
 
 ## Visualização de Projetos
-Ator: Alunos, Professores, Contratantes, Usuários gerais
+Ator: Alunos, Professores, Contratantes, Usuários gerais<br>
 Descrição: O usuário visualiza a lista de projetos disponíveis no sistema.
 Pré-condição: O usuário deve entrar na aba/site onde ficam localizados os projetos.
 Fluxo Principal:
