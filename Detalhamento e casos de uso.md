@@ -32,9 +32,13 @@
 # Detalhamento dos requisitos não funcionais:
 
 ## O sistema deverá utilizar uma API de Banco de dados armazenando os projetos
-
+   - Permitir a passagem de dados para o sistema através de uma API fornecida pelo cliente
 ## O sistema deve ser compatível com os principais navegadores e dispositivos móveis, incluindo computadores, tablets e celulares, fazer um layout responsivo
-
+   - O sistema deverá ser flexivel e compativel com qualquer alteração de tamanho da janela que o usuário fizer (layout responsivo)
+   - O sistema deverá ser compativel para diferentes tamanhos de tela como, notebooks, desktops, celulares e tablets.
+     - Para notebooks e desktops aparecem N projetos em cada pagina, para tablets aparecem N projetos por pagina, para celulares, N projetos por pagina
+     - Em telas menores o botão filtrar deverá aparecer no canto superior esquerdo de uma forma mais discreta, assim como o botão de login para adms
+     - da mesma forma que, nas telas menores, o detalhamento dos projetos se encaixe de forma uniforme sem perder nenhuma informação
 ## O sistema deverá possuir um design inspirado na IBMEC
 - manter a base da identidade visual da instituição
 - deve respeitar a paleta de cores do IBMEC
@@ -42,4 +46,4 @@
 
 
 ## O sistema deve ser feito por javascript, react
--
+- 
