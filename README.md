@@ -34,5 +34,11 @@ Apresentar projetos referentes aos integrantes do grupo com o intuito de demonst
 * How Much (Quanto):Sistema feito somente sendo gasto tempo dos integrantes em relação ao mesmo, consequentemente monetário pois tempo é dinheiro.
 * How (Como): Através do portifólio dos alunos do IBMEC.
 
+## Requisitos
+[Requisitos funcionais e não funcionais](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/requisitos.md)
+
 ## Casos de Uso
 [Casos de Uso](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/Casos%20de%20Uso.md)
+
+## Detalhamento dos Requisitos
+[Detalhamentos de requisitos](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/DetalhamentosReq.md)
