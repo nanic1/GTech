@@ -22,7 +22,7 @@ Apresentar projetos referentes aos integrantes do grupo com o intuito de demonst
 * When (Quando): Momento em que o projeto será executado pelo usuário. 
 * Where (Onde): Local onde o sistema será utilizado, vulgo web.
 * How Much (Quanto): O valor monetário e o tempo que o sistema será feito.
-* How (Como): Como os usuários irão utilizar o sistema. 
+* How (Como): Como os usuários irão utilizar o sistema.
 
 ## 5w2h Respostas
 
@@ -33,3 +33,6 @@ Apresentar projetos referentes aos integrantes do grupo com o intuito de demonst
 * Where (Onde): Será acessado através de um WebSite Online.
 * How Much (Quanto):Sistema feito somente sendo gasto tempo dos integrantes em relação ao mesmo, consequentemente monetário pois tempo é dinheiro.
 * How (Como): Através do portifólio dos alunos do IBMEC.
+
+## Casos de Uso
+[Casos de Uso](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/Casos%20de%20Uso.md)
