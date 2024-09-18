@@ -35,7 +35,7 @@ Apresentar projetos referentes aos integrantes do grupo com o intuito de demonst
 * How (Como): Através do portifólio dos alunos do IBMEC.
 
 ## Requisitos
-[Requisitos funcionais e não funcionais](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/requisitos.md)
+[Requisitos funcionais e não funcionais](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/Requisitos.md)
 
 ## Casos de Uso
 [Casos de Uso](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/Casos%20de%20Uso.md)
