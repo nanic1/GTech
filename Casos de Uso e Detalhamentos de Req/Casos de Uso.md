@@ -13,8 +13,8 @@ Pós-condição: O usuário visualiza a lista completa de projetos.
 
 ## Visualizar informações sobre os programadores do site
 Ator: Alunos, Professores, Contrantes, usuários gerais.<br>
-Descrição: O usuário visualiza a parte do site reservada para os criadores do projeto
-Pré- condição: O usuário deve estar no site e entrar na parte destinada aos programadores "Sobre nós"
+Descrição: O usuário visualiza a parte do site reservada para os criadores do projeto<br>
+Pré- condição: O usuário deve estar no site e entrar na parte destinada aos programadores "Sobre nós"<br>
 Fluxo Principal:
 * O usuário deve estar no site dos portfólios
 * O usuário deve clicar em "Sobre nós"
@@ -58,7 +58,8 @@ Fluxo Principal:
 
 Pós-condição: O usuário visualiza os projetos que correspondem à pesquisa realizada.
 
-## Entrar em Contato com o Aluno
+## Entrar em Contato com o Aluno 
+NÃO É NECESSÁRIAMENTE UM CASO DE USO
 Ator: Contratante<br>
 Descrição: O sistema exibe o e-mail dos alunos no detalhamento do projeto, permitindo contato.<br>
 Pré-condição: O contratante deve abrir o detalhamento do projeto.<br>
@@ -66,10 +67,10 @@ Fluxo Principal:
 * O contratante visualiza a lista de projetos.
 * O contratante clica em "ver mais" em um projeto de interesse.
 * O sistema exibe os detalhes do projeto, incluindo o e-mail do aluno responsável.
-* O contratante copia o e-mail
+* O contratante clica no e-mail, sendo encaminhado para enviar o email
 * O contratante entra em contato.
 
-Pós-condição: O contratante obtém o e-mail do aluno para iniciar contato.
+Pós-condição: O contratante inicia contato.
 
 ## Fazer login do Administrador
 Ator: Administrador<br>
@@ -82,7 +83,7 @@ Fluxo Principal:
 * O sistema verifica as credenciais
 * O sistema concede acesso ao painel administrativo.
 
-Pós-condição: O administrador é autenticado e tem acesso ao painel de administração.
+Pós-condição: O administrador tem acesso ao painel de administração.
 
 ## Adicionar Novo Projeto
 Ator: Administrador<br>
