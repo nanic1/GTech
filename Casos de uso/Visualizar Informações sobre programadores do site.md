@@ -1,4 +1,5 @@
-# Ator: Alunos, Professores, Contrantes, usuários gerais.
+# Visualizar informações sobre os programadores do site
+Ator: Alunos, Professores, Contrantes, usuários gerais.<br>
 Descrição: O usuário visualiza a parte do site reservada para os criadores do projeto<br>
 Pré- condição: O usuário deve estar no site e entrar na parte destinada aos programadores "Sobre nós"<br>
 Fluxo Principal:
