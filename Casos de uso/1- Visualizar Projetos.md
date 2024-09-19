@@ -8,3 +8,5 @@ Fluxo Principal:
 * O usuário visualiza a lista de projetos disponíveis.
 
 Pós-condição: O usuário visualiza a lista completa de projetos.
+
+[Casos de Uso](https://github.com/nanic1/GTech/blob/main/Casos%20de%20Uso%20e%20Detalhamentos%20de%20Req/Casos%20de%20Uso.md)
