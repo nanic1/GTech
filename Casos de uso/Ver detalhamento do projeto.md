@@ -1,4 +1,5 @@
-# Ator: Alunos, Professores, Usuários gerais, Contratantes
+# Ver Detalhamento de Projeto
+Ator: Alunos, Professores, Usuários gerais, Contratantes<br>
 Descrição: O usuário seleciona um projeto da lista para ver mais detalhes.<br>
 Pré-condição: Usuário deve estar no site, escolher o projeto que deseja ver detalhado e clicar no botão "ver mais" para abrir o detalhamento<br>
 Fluxo Principal:
