@@ -1,7 +1,7 @@
 # Detalhamento dos requisitos funcionais:
 
 
-O sistema deve apresentar a listagem dos projetos dos alunos
+#O sistema deve apresentar a listagem dos projetos dos alunos
      - O sistema deve apresentar uma listagem dos projetos através de páginas para facilitar a referência (pequenos quadrados citando o nome do projeto, com imagem e botão de "ver mais" para abrir demais informações do projeto)
      - Na listagem dos projetos, cada projeto terá uma visão prévia do que ele se trata, tendo o máximo de conteudo necessario, porem sem poluicao da tela (apenas nome do projeto, imagem, curso e linguagem utilizada)
      - Deve apresentar também um botão de voltar para a página referenciada e não para a página zero (na parte superior esquerda da tela)
