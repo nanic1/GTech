@@ -19,7 +19,7 @@ Pós-condição: O novo projeto é adicionado e exibido no sistema.
 [4- Filtar Projetos](https://github.com/nanic1/GTech/blob/main/Casos%20de%20uso/4-%20Filtrar%20Projetos.md)<br>
 [5- Pesquisar Projetos](https://github.com/nanic1/GTech/blob/main/Casos%20de%20uso/5-%20Pesquisar%20Projetos.md)<br>
 [6- Fazer Login do Administrador](https://github.com/nanic1/GTech/blob/main/Casos%20de%20uso/6-%20Fazer%20Login%20do%20Administrador.md)<br>
-[7- Adicionar Novo Projeto](https://github.com/nanic1/GTech/blob/main/Casos%20de%20uso/7-%20Adicionar%20Novo%20Projeto.md)<br>
+[7- Adicionar Novo Projeto 👈](https://github.com/nanic1/GTech/blob/main/Casos%20de%20uso/7-%20Adicionar%20Novo%20Projeto.md)<br>
 [8- Editar Projeto](https://github.com/nanic1/GTech/blob/main/Casos%20de%20uso/8-%20Editar%20Projeto.md)<br>
 [9- Excluir Projeto](https://github.com/nanic1/GTech/blob/main/Casos%20de%20uso/9-%20Excluir%20Projeto.md)<br>
 [Início](https://github.com/nanic1/GTech)
