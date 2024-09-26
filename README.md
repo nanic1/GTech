@@ -53,3 +53,4 @@ Apresentar projetos referentes aos integrantes do grupo com o intuito de demonst
 
 ## Link da apresentação
 [Apresentação](https://www.canva.com/design/DAGRsmsYGjA/wt4BSh_M7-hkT_8DS9ElIw/edit?utm_content=DAGRsmsYGjA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Figma](https://www.figma.com/design/31gqMYkYXlFYBBy7TgRZyW/Projeto-Front-End?node-id=282-78&t=q6PZFKg6eJptG0Zu-1)
