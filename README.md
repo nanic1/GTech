@@ -10,7 +10,7 @@
 
 ## Propósito do portfólio:
 
-Apresentar projetos referentes aos integrantes do grupo com o intuito de demonstrar as habilidades, competências, experiências e qualificações dos integrantes publicamente, para que futuros possíveis contratantes possam acessar os projetos e encontrar novos talentos.
+Apresentar projetos referentes aos alunos IBMEC com o intuito de demonstrar as habilidades, competências, experiências e qualificações dos integrantes publicamente, para que futuros possíveis contratantes possam acessar os projetos e encontrar novos talentos.
 
 ## 5w2h
 
