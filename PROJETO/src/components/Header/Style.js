@@ -8,6 +8,7 @@ const Top = styled.header`
   margin: auto;
   align-items: center;
   justify-content: center;
+  gap: 85px;
   a {
     text-align: center;
     padding: .3em;
@@ -16,7 +17,8 @@ const Top = styled.header`
     text-decoration: none;
     font-weight: bold;
     color: white;
-    text-transform: uppercase;
+    font-family: "Open Sans";
+
     /*border-radius: .3em;*/
   }
 `
