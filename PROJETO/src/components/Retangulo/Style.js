@@ -8,6 +8,11 @@ const Bloco = styled.div`
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #002555;
+
+    #navCima{
+        display: flex;
+        gap: 10px;
+    }
     
 `;
 
