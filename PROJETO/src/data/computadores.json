@@ -1,0 +1,39 @@
+[
+  {
+    "url" : "imagens/garrincha.png",
+    "nome": "Carlos Alberto Torres"
+   },
+   {
+    "url" : "imagens/Didi.png",
+    "nome": "Didi"
+   },
+   {
+    "url" : "imagens/gérson.png",
+    "nome": "Gérson"
+   },
+   {
+    "url" : "imagens/garrincha.png",
+    "nome": "Garrincha"
+   },
+   {
+    "url" : "imagens/heleno.jpeg",
+    "nome": "Heleno de Freitas"
+   },
+   {
+    "url" :"imagens/quarenta.jpeg",
+    "nome": "Quarentinha"
+   },
+   {
+    "url" :"imagens/CarvalhoLeite.jpeg",
+    "nome": "Carvalho Leite"
+   },
+   {
+    "url" :"imagens/nilton.webp",
+    "nome": "Nilton Santos"
+   },
+   {
+    "url" :"imagens/tulio.jpeg",
+    "nome": "Túlio Maravilha"
+   }
+   
+]
