@@ -10,9 +10,18 @@ const Bloco = styled.div`
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .08);
     color: black;
 
+    #teste{
+        text-decoration: none
+    }
+    button {
+        border: 0px;
+        background-color: #F5AC00;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
+`
 
 
-`;
 
-
-export default Bloco
+export {Bloco}
