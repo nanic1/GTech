@@ -15,7 +15,9 @@ const Base1 = styled.div`
         border: 0;
         background-color: #F5AC00;
         border-radius: 15px;
-
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 14pt;
     }
     img {
         height: 50px

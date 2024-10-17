@@ -8,6 +8,9 @@ const Bloco = styled.div`
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #002555;
+    font-family: "Inter"
+    font-weight: 500;
+    font-size: 14pt;
 
     #navCima{
         display: flex;
