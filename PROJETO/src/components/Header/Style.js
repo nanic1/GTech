@@ -13,7 +13,7 @@ const Top = styled.header`
     text-align: center;
     padding: .3em;
     margin: 0 .7em;
-    min-width: 5em;
+    min-width: 5%;
     text-decoration: none;
     font-weight: bold;
     color: white;

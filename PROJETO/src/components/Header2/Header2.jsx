@@ -7,7 +7,11 @@ const ParteBranca = () => {
         <Base1>
             <div id='header'>
                 <img src="imagens/logo.png"/>
-                <button>Inscreva-se</button>
+                <a href="https://www.ibmec.br/selecao?variant=funnel-inversion-off"> 
+                    <button type="button">  
+                    Inscreva-se
+                    </button>
+                </a>
             </div>
         
         </Base1>
