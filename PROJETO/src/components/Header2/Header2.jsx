@@ -1,12 +1,15 @@
 import React from "react";
 import { Base1 } from "./Style"
+import { Link } from "react-router-dom";
 
 
 const ParteBranca = () => {
     return (
         <Base1>
             <div id='header'>
-                <img src="imagens/logo.png"/>
+                <Link to="https://www.ibmec.br/"> 
+                    <img src="imagens/logo.png"/>     
+                </Link>
                 <a href="https://www.ibmec.br/selecao?variant=funnel-inversion-off"> 
                     <button type="button">  
                     Inscreva-se
