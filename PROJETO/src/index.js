@@ -11,6 +11,7 @@ import { auth } from "./config/Firebase";
 import { onAuthStateChanged } from "firebase/auth";
 import Atletas from "./pages/Atletas";
 import SobreNos from "./pages/sobrenos";
+import Detalhamento from "./pages/Detalhamento";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -33,6 +34,7 @@ root.render(
         <Route path="/login" element={<Login/>} />
         <Route path="/logout" element={<Logout/>} />
         <Route path="/sobre-nos" element={<SobreNos/>}/>
+        <Route path="/Detalhamento" element={<Detalhamento/>}/>
       </Routes>
     </HashRouter>
   </React.StrictMode>
