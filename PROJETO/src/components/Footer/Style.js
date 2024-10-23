@@ -1,12 +1,37 @@
 import styled from "styled-components";
 
 const Footer = styled.div`
-    padding-left: 100px;
-    padding-right: 100px;   
     color: black;
-    line-height: 0px;
+    line-height: 1px;
     #unidade{
-    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px 0;
+    display: flex;
+   
+
+    }
+    #unidade p{
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+    }
+    #unidade p::before{
+        content: "";
+        display: inline-block;
+        width: 100px; 
+        height: 1px; 
+        background-color: black; 
+        vertical-align: middle;
+        margin: 0 10px;
+    }
+    #unidade p::after{
+        content: "";
+        display: inline-block;
+        width: 1035px; 
+        height: 1px; 
+        background-color: black; 
+        vertical-align: middle;
+        margin: 0 10px;
     }
     .azul {
         color: rgba(0, 37, 85, 1);

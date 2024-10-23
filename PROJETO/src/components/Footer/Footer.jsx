@@ -5,7 +5,7 @@ const Rodape = () => {
     return(
         <Footer>
             <div id="unidade">
-                <p>Unidade<hr /></p>
+                <p>Unidades</p>
                 
             </div>
             <div id="conteiner">
