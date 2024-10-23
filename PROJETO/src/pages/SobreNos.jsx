@@ -17,7 +17,6 @@ import Base from "./Base";
 
 const SobreNos = () =>(
     <Base>
-    <ParteBranca/>
     <NovoComponente/>
     {/* <ListContainer>
     {
