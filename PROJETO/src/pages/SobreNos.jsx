@@ -17,8 +17,8 @@ import Base from "./Base";
 
 const SobreNos = () =>(
     <Base>
-    <NovoComponente/>
     <ParteBranca/>
+    <NovoComponente/>
     {/* <ListContainer>
     {
         MeusDados.map(ele => (

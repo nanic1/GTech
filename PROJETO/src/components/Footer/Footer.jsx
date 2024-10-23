@@ -3,8 +3,9 @@ import { Footer } from "./Style";
 
 const Rodape = () => {
     return(
-        <div id='fim_pg'> 
-        
+        <div id="conteiner">
+            <img src="imagens\unidades.png" />
+            
         </div>
     )
 }

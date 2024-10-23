@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 const Base1 = styled.div`
+    position: relative;
     background-color: white;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     #header{
