@@ -35,6 +35,7 @@ root.render(
         <Route path="/logout" element={<Logout/>} />
         <Route path="/sobre-nos" element={<SobreNos/>}/>
         <Route path="/Detalhamento" element={<Detalhamento/>}/>
+        <Route path="/projetos/:id" element = {<Detalhamento/>}/>
       </Routes>
     </HashRouter>
   </React.StrictMode>

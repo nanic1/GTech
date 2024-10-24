@@ -1,52 +1,29 @@
-import Card from "../Card/Card"
+import React from "react";
 import Bloco from "./Style"
+import { useParams } from "react-router-dom";
+import dados from "../../data/projetos.json";
+import Cartao from "../Cartao/Cartao";
+import { Link } from "react-router-dom";
 
 
 function ConjuntoCards () {
-    const listaCartoes = [
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
-        {titulo: 'Projeto 1', texto: 'Descrição do projeto'},
 
-
-    ]
+    const {id} = useParams();
+    let dadosFiltrados;
+       
+       dadosFiltrados = dados.filter(
+        (elemento) => elemento.id === parseInt(id) || !id
+      );
     return (
         <Bloco>
-
-            <div id='teste'>
-                {listaCartoes.map((item, index) => (
-                    <Card key={index} titulo={item.titulo} texto={item.texto}/>
-                ))}
-            </div>
+                {/* {dadosFiltrados.map((item, index) => ( */}
+                    <Link to={`/projeto/${item.id}`}
+                    id="no-underline">
+                    <Cartao titulo="help"
+                    texto="precisamos de ajuda" imagem="imagens/tulio.jpeg"/>
+                    </Link>
+                {/* ))} */}
+    
         </Bloco>
 
     )

@@ -1,10 +1,16 @@
-import { Container, Texto, Titulo } from "./style";
+ import { Container } from "./style";
+ import React from "react";
 
-const Cartao = (props) => (
-    <Container>
-        <Titulo>{props.titulo}</Titulo>
-        <Texto>{props.texto}</Texto>
-    </Container>
-)
+ function Cartao(props) {
+     return(
+
+     <Container>
+         <h3 id="titulo">{props.titulo}</h3>
+         <img src={props.imagem} id="teste"></img>
+         <p id="texto">{props.texto}</p>
+     </Container>
+     )
+}
 
 export default Cartao
+
