@@ -7,8 +7,6 @@ const Footer = styled.div`
     text-align: center;
     margin-bottom: 20px 0;
     display: flex;
-   
-
     }
     #unidade p{
         display: inline-block;
@@ -27,7 +25,7 @@ const Footer = styled.div`
     #unidade p::after{
         content: "";
         display: inline-block;
-        width: 1035px; 
+        width: 1100px; 
         height: 1px; 
         background-color: black; 
         vertical-align: middle;
@@ -48,6 +46,7 @@ const Footer = styled.div`
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    
     }
 `
 
