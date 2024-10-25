@@ -7,8 +7,8 @@ function Cartao(props) {
         <> 
             <Teste>
 
-
                 <h3 id="titulo">{props.titulo}</h3>
+
                 <img src={props.imagem} id="teste"></img>
                 <p id="texto">{props.texto}</p>
 
