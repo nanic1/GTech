@@ -8,21 +8,24 @@ import { Link } from "react-router-dom";
 
 function ConjuntoCards () {
 
-    const {id} = useParams();
+    const { id } = useParams();
+
     let dadosFiltrados;
-       
-       dadosFiltrados = dados.filter(
-        (elemento) => elemento.id === parseInt(id) || !id
-      );
+    
+    if (id) {
+      dadosFiltrados = dados.filter((elemento) => elemento.id === parseInt(id));
+    } else {
+      dadosFiltrados = dados;
+    }
     return (
         <Bloco>
-                {/* {dadosFiltrados.map((item, index) => ( */}
-                    <Link to={`/projeto/${item.id}`}
+                {dadosFiltrados.map((item, index) => (
+                    <Link to={`/projetos/${item.id}`}
                     id="no-underline">
-                    <Cartao titulo="help"
-                    texto="precisamos de ajuda" imagem="imagens/tulio.jpeg"/>
+                    <Cartao titulo={item.titulo}
+                    texto={item.texto} imagem={item.imagem}/>
                     </Link>
-                {/* ))} */}
+                ))}
     
         </Bloco>
 
