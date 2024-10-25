@@ -29,6 +29,8 @@ const Home = () => {
       <Retangulo titulo='Portfólios' texto='Descubra o talento em evolução: projetos e portfolios que transformam ideias em realidade.'/>
       <Filtros/>
       <ConjuntoCards/>
+      <h3>Teste</h3>
+      <h3>Teste 2</h3>
     </Base>
   );
 }
