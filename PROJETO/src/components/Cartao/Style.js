@@ -1,21 +1,21 @@
 import styled from "styled-components";
 
-const Container = styled.div`
-    width: 30em;
+const Teste = styled.div `
     height: min-content;
-    border: 2px solid white;
-    border-radius: 5px;
     margin-top: 10px;
-    text-align:center
-    
-`;
-
-const Titulo = styled.h3`
-    text-decoration: wavy;
-`;
-
-const Texto =styled.p`
-    padding: 0 .5em;
-`;
-
-export {Container, Titulo, Texto}
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    img {
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        align-items: center;
+    }
+`
+export default Teste

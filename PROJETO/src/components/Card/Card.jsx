@@ -1,4 +1,4 @@
-import {Bloco, Bloco2} from "./Style"
+import {Bloco} from "./Style"
 import { Link } from "react-router-dom"
 
 const Card = (props) => (
