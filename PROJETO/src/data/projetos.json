@@ -2,73 +2,73 @@
     {
         "id": 1,
         "titulo": "Projeto 1",
-        "texto": " Detalhes do Projeto",
+        "texto": " Ver mais",
         "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 2,
         "titulo": "Projeto 2 ",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 3,
         "titulo": "Projeto 3",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 4,
         "titulo": "Projeto 4",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 5,
         "titulo": "Projeto 5",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 6,
         "titulo": "Projeto 6",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 7,
         "titulo": "Projeto 7",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 8,
         "titulo": "Projeto 8",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 9,
         "titulo": "Projeto 9",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 10,
         "titulo": "Projeto 10",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 11,
         "titulo": "Projeto 11",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     },
     {
         "id": 12,
         "titulo": "Projeto 12",
-        "texto": " Detalhes do Projeto",
-        "imagem": "imagem/projeto_capa.png"
+        "texto": " Ver mais",
+        "imagem": "imagens/projeto_capa.png"
     }
 ]

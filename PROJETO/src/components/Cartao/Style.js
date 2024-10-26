@@ -12,7 +12,10 @@ const Teste = styled.div `
     border-radius: 10px;
     color: black;
     img {
-        width: 200px;
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        align-items: center;
     }
 `
 export default Teste

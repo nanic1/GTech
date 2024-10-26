@@ -1,5 +1,6 @@
 import React from "react";
 import Teste from "./Style";
+import Card from "../Card/Card";
 
 
 function Cartao(props) {
