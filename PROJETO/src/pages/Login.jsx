@@ -24,36 +24,32 @@ const Login = () => {
     <>
     
     <Header/>
-    <div style={{"background-color": "#f5f5f5", "height": "fit-content", "display": "Flex", "justifyContent": "center", "flexDirection": "column"}}> 
-      <img src="imagens/logo.png" style={{"width": "200px" }}/>
-      <form action="" style={{"display": "flex", "flexDirection": "column", "justifyContent": "center", "alignItems":"center", "gap":"20px"}}>
+    <div style={{"backgroundColor": "white", "margin": "150px"}}>
+      <div style={{"background-color": "#f5f5f5", "height": "350px", "display": "Flex", "flexDirection": "column"}}> 
+        <form action="" style={{"display": "flex", "flexDirection": "column", "justifyContent": "center", "alignItems":"center", "gap":"20px"}}>
+        <img src="imagens/logo.png" style={{"width": "200px" }}/>
 
+            <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Email"
+            style={{"border": "0px", "padding": "15px 15px", "border-radius": "10px", "width": "200px", "textAlign": "center"}}
+            />
           <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-          style={{"border": "0px", "padding": "15px 15px", "border-radius": "10px", "width": "200px", "textAlign": "center"}}
-          />
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          style={{"border": "0px", "padding": "15px 15px", "border-radius": "10px", "width": "200px", "textAlign": "center"}}
-          placeholder="Password"
-          />
-        <button type="submit"
-          style={{"border": "0px", "padding": "15px 15px", "border-radius": "10px", "width": "230px", "backgroundColor": "#002555", "color":"white"}}
-        >Login</button>
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            style={{"border": "0px", "padding": "15px 15px", "border-radius": "10px", "width": "200px", "textAlign": "center"}}
+            placeholder="Senha"
+            />
+          <button type="submit"
+            style={{"border": "0px", "padding": "15px 15px", "border-radius": "10px", "width": "230px", "backgroundColor": "#002555", "color":"white"}}
+          >Login</button>
 
-      </form>
+        </form>
 
-
-          
-
-
-
-
+      </div>
     </div>
     </>
   )
