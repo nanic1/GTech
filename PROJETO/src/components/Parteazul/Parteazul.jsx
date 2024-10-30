@@ -7,7 +7,7 @@ const Parteazul = (props) => {
     return(
     <Conteiner>
         <div id="Projeto">
-            <h1> {props.titulo}</h1>
+            <h2> {props.titulo}</h2>
 
         </div>
     </Conteiner>

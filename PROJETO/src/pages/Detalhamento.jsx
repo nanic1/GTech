@@ -4,6 +4,8 @@ import DetalhamentoProjetos from "../components/DetalhamentoProjetos/Detalhament
 import { useParams } from 'react-router-dom';
 import Base from "./Base";
 import Parteazul from "../components/Parteazul/Parteazul";
+import ParteBranca from "../components/ParteBranca/ParteBranca";
+import ParteAzul2 from "../components/ParteAzul2/ParteAzul2";
 
 
 function Detalhamento() {
@@ -18,6 +20,8 @@ function Detalhamento() {
         <>
             <Base>
                 <Parteazul/>
+                <ParteBranca/>
+                <ParteAzul2/>
             </Base>
     
             <DetalhamentoProjetos/>
