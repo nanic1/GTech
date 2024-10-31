@@ -15,10 +15,10 @@ const Bloco = styled.div`
         
     }
     button {
-        border: 0px;
-        background-color: #F5AC00;
-        padding: 10px 10px;
-        border-radius: 10px;
+    border:  2px solid #F5AC00; /* Remover borda do botão */
+    background-color: #F5AC00;
+    padding: 10px 10px;
+    border-radius: 10px;
     }
 `
 

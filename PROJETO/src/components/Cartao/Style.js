@@ -9,6 +9,7 @@ const Teste = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
     border-radius: 10px;
     color: black;
 
@@ -16,6 +17,17 @@ const Teste = styled.div `
         display: block;
         max-width: 100%;
         align-items: center;
+        padding-bottom:10px;
+    }
+    button{
+        border: none;
+        width: 100px;
+        height:25px;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    
     }
     #titulo {
         padding-top: 20px;
