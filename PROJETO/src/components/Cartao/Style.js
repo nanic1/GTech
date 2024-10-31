@@ -1,21 +1,43 @@
 import styled from "styled-components";
 
-const Container = styled.div`
-    width: 30em;
+const Teste = styled.div `
     height: min-content;
-    border: 2px solid white;
-    border-radius: 5px;
-    margin-top: 10px;
-    text-align:center
+    margin-top: 30px;
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    color: black;
+
+    img {
+        display: block;
+        max-width: 100%;
+        align-items: center;
+        padding-bottom:10px;
+        width: 200px;
+        border-radius: 10px;
+        padding-top: 10px;
+    }
+    button{
+        border: none;
+        width: 100px;
+        height:25px;
+        align-items: center;
+        margin-bottom: 10px;
+        cursor: pointer;
     
-`;
+    }
+    #titulo {
+        padding-top: 10px;
+    }
+    #texto {
+        background-color: #F5AC00;
+        border-radius: 10px;
 
-const Titulo = styled.h3`
-    text-decoration: wavy;
-`;
-
-const Texto =styled.p`
-    padding: 0 .5em;
-`;
-
-export {Container, Titulo, Texto}
+    }
+`
+export default Teste

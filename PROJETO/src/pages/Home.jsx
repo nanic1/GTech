@@ -26,9 +26,10 @@ const Home = () => {
 
   return (
     <Base>
-      <Retangulo titulo='Portfólios' texto='Descubra o talento em evolução: projetos e portfolios que transformam ideias em realidade.'/>
+      <Retangulo titulo='Portfólios' texto='Descubra o talento em evolução: projetos e portfólios que transformam ideias em realidade.'/>
       <Filtros/>
       <ConjuntoCards/>
+
     </Base>
   );
 }

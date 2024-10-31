@@ -1,4 +1,4 @@
-import {Bloco, Bloco2} from "./Style"
+import {Bloco} from "./Style"
 import { Link } from "react-router-dom"
 
 const Card = (props) => (
@@ -12,7 +12,7 @@ const Card = (props) => (
             <div id='baixo'>
                 <p>{props.texto}</p>
             </div>
-            <Link to='/detalhamento' id="teste">
+            <Link to='/detalhamento' id="botao">
                 <button>Ver Mais</button>
             </Link>
         </Bloco>
