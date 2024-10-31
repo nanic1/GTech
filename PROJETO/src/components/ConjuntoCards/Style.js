@@ -3,6 +3,10 @@ import styled from "styled-components";
 const Bloco = styled.div`
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     #teste {    
         display: flex;
         flex-direction: row;

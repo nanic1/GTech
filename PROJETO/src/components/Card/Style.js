@@ -12,6 +12,7 @@ const Bloco = styled.div`
 
     #teste{
         text-decoration: none
+        
     }
     button {
         border: 0px;
@@ -19,7 +20,6 @@ const Bloco = styled.div`
         padding: 10px 10px;
         border-radius: 10px;
     }
-
 `
 
 

@@ -21,6 +21,10 @@ const Top = styled.header`
 
     /*border-radius: .3em;*/
   }
+  img {
+  width: 20px;
+  height: 20px;
+  }
 `
 
 export {Top}
