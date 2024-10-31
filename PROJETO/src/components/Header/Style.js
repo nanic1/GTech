@@ -19,7 +19,6 @@ const Top = styled.header`
     color: white;
     font-family: "Open Sans";
 
-    /*border-radius: .3em;*/
   }
 `
 
