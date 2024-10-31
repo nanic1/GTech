@@ -19,12 +19,15 @@ const Base1 = styled.div`
         font-family: "Inter";
         font-weight: 500;
         font-size: 14pt;
-        height: 50px;
+        height: 60px;
         width: 125px;
+        
         cursor: pointer;
+
     }
     img {
-        height: 55px
+        height: 60px;
+
     }
 `;
 
