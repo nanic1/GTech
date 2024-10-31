@@ -17,23 +17,26 @@ function ConjuntoCards () {
      } 
     ))
   }
-    const { id } = useParams();
+  const { id } = useParams();
 
-    let dadosFiltrados;
-    
-    if (id) {
-      dadosFiltrados = dados.filter((elemento) => elemento.id === parseInt(id));
-    } else {
-      dadosFiltrados = dados;
-    }
+  let dadosFiltrados;
+  
+  if (id) {
+    dadosFiltrados = dados.filter((elemento) => elemento.id === parseInt(id));
+  } else {
+    dadosFiltrados = dados;
+  }
     return (
       <>
       <Bloco2>
-
+        <div id="teste">
           <input id="buscar"
             type="text" 
             placeholder="Busca"
             onChange={ (e) => filtra(e.target.value)} />
+          
+        </div>
+
 
       </Bloco2>
         <Bloco>

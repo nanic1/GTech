@@ -19,11 +19,6 @@ const Top = styled.header`
     color: white;
     font-family: "Open Sans";
 
-    /*border-radius: .3em;*/
-  }
-  img {
-  width: 20px;
-  height: 20px;
   }
 `
 

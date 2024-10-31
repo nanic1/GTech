@@ -7,11 +7,13 @@ const Footer = styled.div`
     text-align: center;
     margin-bottom: 20px 0;
     display: flex;
+    padding-top: 30px;
     }
     #unidade p{
         display: inline-block;
         position: relative;
         font-weight: bold;
+        margin: auto;
     }
     #unidade p::before{
         content: "";
@@ -20,7 +22,7 @@ const Footer = styled.div`
         height: 1px; 
         background-color: black; 
         vertical-align: middle;
-        margin: 0 10px;
+        margin: auto;
     }
     #unidade p::after{
         content: "";
@@ -29,7 +31,7 @@ const Footer = styled.div`
         height: 1px; 
         background-color: black; 
         vertical-align: middle;
-        margin: 0 10px;
+        margin: auto;
     }
     .azul {
         color: rgba(0, 37, 85, 1);
