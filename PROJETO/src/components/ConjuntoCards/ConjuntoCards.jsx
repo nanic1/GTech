@@ -36,8 +36,6 @@ function ConjuntoCards () {
             onChange={ (e) => filtra(e.target.value)} />
           
         </div>
-
-
       </Bloco2>
         <Bloco>
                 {dadosFiltrados.map((item, index) => (

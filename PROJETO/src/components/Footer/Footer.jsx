@@ -17,7 +17,7 @@ const Rodape = () => {
                     <p className="azul"> 0800 771 8020</p>
 
                 </div>
-                <div class='minas'>
+                <div class='distrito'>
                     <p className="amarelo">DISTRITO FEDERAL</p>
                     <p className="azul">SIG Quadra 4 BL. A</p>
                     <p className="azul">Ed Capital Financial Center</p>
@@ -25,7 +25,7 @@ const Rodape = () => {
                     <p className="azul">0800 771 8020</p>
 
                 </div>
-                <div class='minas'>
+                <div class='rio-barra'>
                     <p className="amarelo">RIO DE JANEIRO | BARRA</p>
                     <p className="azul">Av. Armando Lombardi, 940 </p>
                     <p className="azul">Barra da Tijuca </p>
@@ -33,7 +33,7 @@ const Rodape = () => {
                     <p className="azul">0800 771 8020</p>
 
                 </div>
-                <div class='minas'>
+                <div class='rio-centro'>
                     <p className="amarelo">RIO DE JANEIRO | CENTRO</p>
                     <p className="azul">Av. Presidente Wilson,118</p>
                     <p className="azul">Centro</p>
@@ -42,16 +42,8 @@ const Rodape = () => {
 
                 </div>
                 
-                <div class='minas'>
-                    <p className="amarelo">RIO DE JANEIRO | CENTRO</p>
-                    <p className="azul">Av. Presidente Wilson,118</p>
-                    <p className="azul">Centro</p>
-                    <p className="azul">Rio de Janeiro - RJ</p>
-                    <p className="azul">0800 771 8020</p>
-
-                </div>
                 
-                <div class='minas'>
+                <div class='sao-paulista'>
                     <p className="amarelo">SÃO PAULO | PAULISTA</p>
                     <p className="azul">AL. Santos,2356</p>
                     <p className="azul">Jd. Paulista</p>
@@ -60,7 +52,7 @@ const Rodape = () => {
 
                 </div>
                 
-                <div class='minas'>
+                <div class='sao-faria-lima'>
                     <p className="amarelo">SÃO PAULO | FARIA LIMA</p>
                     <p className="azul">Rua Sumidouro,89</p>
                     <p className="azul">Pinheiros</p>

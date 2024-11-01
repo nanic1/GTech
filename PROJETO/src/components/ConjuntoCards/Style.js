@@ -32,8 +32,6 @@ const Bloco2 = styled.div`
         box-shadow: 1px 1px 1px gray;
         padding: 10px 10px;
         border-radius: 10px;
-
-
     }
     #buscar{
         margin: auto;
@@ -51,6 +49,21 @@ const Bloco2 = styled.div`
     }
     input {
         border: 0;
+    }
+    @media screen and (min-width: 360px) {
+    #buscar{
+        width:250px;
+        }
+    }
+    @media screen and (min-width: 834px) {
+    #buscar{
+        width:450px;
+        }
+    }
+    @media screen and (min-width: 1440px) {
+    #buscar{
+        width:650px;
+        }
     }
 `;
 

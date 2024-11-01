@@ -55,8 +55,8 @@ function Filtros () {
     return (
         <Bloco>
             <div id="filtragem">
-                <h2>Filtrar por:</h2>
-                <h2>Limpar Filtros</h2>
+                <h2 id="filtrar-por">Filtrar por:</h2>
+                <h2 id="limpar-filtro">Limpar Filtros</h2>
             </div>
             <div class="grid-container">
                 <Select options={options1} placeholder='Tecnologias' className='select'/>

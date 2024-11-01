@@ -11,7 +11,7 @@ const Bloco = styled.div`
         width: 250px;
     }
     #filtragem {
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: space-between;
         padding-bottom: 10px;
@@ -22,7 +22,36 @@ const Bloco = styled.div`
         flex-direction: row;
         justify-content: space-between;
     }
-`
+@media screen and (min-width: 360px) {
+    .grid-container{
+        display:none;
+    }
+@media screen and (min-width: 834px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns:
+        "auto"
+        "auto"
+        ;
+        gap: 10px;
+        padding: 10px;
+    }
+    #filtragem{
+        display:block;
+    }
+@media screen and (min-width: 1440px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns:auto auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+    }
+    #filtragem{
+        display:block;
+    }
+}
+}}
+`;
 
 
 export default Bloco

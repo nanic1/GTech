@@ -18,8 +18,75 @@ const Top = styled.header`
     font-weight: bold;
     color: white;
     font-family: "Open Sans";
-
   }
-`
+  #sobre-nos {
+    display: none;
+  }
+  #home {
+    display: none;
+  }
+  #whatsapp {
+    display: none;
+  }
+  #area-do-aluno {
+    display: none;
+  }
+  #login {
+    display: none;
+  }
+  @media screen and (min-width: 360px) { /*sobrescrever o codigo acima, para quando a largura for 360 */
+    #sobre-nos{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      height: 2em;
+    }
+  }
+  @media screen and (min-width: 834px) { /*sobrescrever o codigo acima, para quando a largura for 360 */
+    #home{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      height: 2em;
+    }
+    #sobre-nos{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      height: 2em;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    #sobre-nos{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      height: 2em;
+    }
+    #whatsapp{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      height: 2em;
+    } 
+    #area-do-aluno{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      height: 2em;
+    } 
+    #home{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      height: 2em;
+    } 
+    #login{
+      display: none;
+    }
+}
+`;
+
+
 
 export {Top}
