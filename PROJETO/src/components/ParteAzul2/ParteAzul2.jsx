@@ -14,7 +14,7 @@ const ParteAzul2 = (props) => {
         <div id="Data">
             <p>Data do Projeto:</p>
         </div>
-        <div id="unidade">
+        <div id="unidades">
             <p>Unidade:</p>
         </div>
     </Detalhes>

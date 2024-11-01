@@ -18,7 +18,7 @@ function Detalhamento() {
     return (
         <>
             <Base>
-                <Parteazul id={projeto.id} imagem={projeto.imagem}/>
+                <Parteazul id={projeto.id} imagem={projeto.imagem} imagem2={projeto.imagem2} imagem3={projeto.imagem3}/>
                 <ParteBranca descricao={projeto.descricao} id={projeto.id}/>
                 <ParteAzul2/>
             </Base>

@@ -42,7 +42,7 @@ function ConjuntoCards () {
                     <Link to={`/projetos/${item.id}`}
                     id="no-underline">
                     <Cartao titulo={item.titulo}
-                    texto={item.texto} imagem={item.imagem}/>
+                    texto={item.texto} imagem={item.imagem} imagem2={item.imagem2} imagem3={item.imagem3}/>
                     </Link>
                 ))}
     
