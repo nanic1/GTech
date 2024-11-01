@@ -4,7 +4,7 @@ const Teste = styled.div `
     height: min-content;
     margin-top: 30px;
     background-color: #f5f5f5;
-    width: 260px;
+    width: 250px;
     border-radius: 10px;
     color: black;
 
