@@ -17,7 +17,7 @@ const Home = () => {
     <Base>
       
 
-      <Retangulo titulo='Portfólios' texto='Descubra o talento em evolução: projetos e portfólios que transformam ideias em realidade.'/>
+      <Retangulo titulo='Portfólios' texto='Descubra o talento em evolução: Projetos e portfólios que transformam ideias em realidade.'/>
       <Filtros/>
       <ConjuntoCards/>
 
