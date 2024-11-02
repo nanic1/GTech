@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 const Bloco = styled.div`
-    margin-left: 100px;
-    margin-right: 100px;
+    @media (min-width: 1440px) {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     margin-top: 5px;
     display: flex;
     flex-direction: row;
@@ -18,6 +20,12 @@ const Bloco = styled.div`
     }  */
     #no-underline {
         text-decoration: none;
+    }
+    @media screen and (min-width: 360px) {
+    margin: 0;
+    #buscar{
+        width:250px;
+        }
     }
 `;
 const Bloco2 = styled.div`
@@ -51,6 +59,7 @@ const Bloco2 = styled.div`
         border: 0;
     }
     @media screen and (min-width: 360px) {
+    padding: 0;
     #buscar{
         width:250px;
         }

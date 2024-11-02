@@ -11,7 +11,7 @@ const Top = styled.header`
   gap: 85px;
   a {
     text-align: center;
-    padding: .3em;
+    padding: .2em;
     margin: 0 .7em;
     min-width: 5%;
     text-decoration: none;
@@ -58,27 +58,35 @@ const Top = styled.header`
   }
   @media screen and (min-width: 1400px) {
     #sobre-nos{
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 80%;
-      margin: 0 auto;
+      margin: 0;
       height: 2em;
     }
     #whatsapp{
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 80%;
-      margin: 0 auto;
+      margin: 0;
       height: 2em;
     } 
     #area-do-aluno{
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 80%;
-      margin: 0 auto;
+      margin: 0;
       height: 2em;
     } 
     #home{
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 80%;
-      margin: 0 auto;
+      margin: 0;
       height: 2em;
     } 
     #login{

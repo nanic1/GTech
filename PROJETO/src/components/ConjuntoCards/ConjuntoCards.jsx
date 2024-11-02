@@ -32,7 +32,7 @@ function ConjuntoCards () {
         <div id="teste">
           <input id="buscar"
             type="text" 
-            placeholder="Busca"
+            placeholder="Buscar"
             onChange={ (e) => filtra(e.target.value)} />
           
         </div>
@@ -43,6 +43,7 @@ function ConjuntoCards () {
                     id="no-underline">
                     <Cartao titulo={item.titulo}
                     texto={item.texto} imagem={item.imagem} imagem2={item.imagem2} imagem3={item.imagem3}/>
+                    texto={item.texto} imagem={item.imagem} curso={item.curso} tecnologias={item.tecnologias} periodo={item.periodo} />
                     </Link>
                 ))}
     

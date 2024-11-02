@@ -20,12 +20,12 @@ const options1 = [
   
   ]
   const options3 = [
-    {value: '24/09/2024', label: '24/09/2024'},
-    {value: '24/09/2024', label: '24/09/2024'},
-    {value: '24/09/2024', label: '24/09/2024'},
-    {value: '24/09/2024', label: '24/09/2024'},
-    {value: '24/09/2024', label: '24/09/2024'},
-    {value: '24/09/2024', label: '24/09/2024'},
+    {value: '2023.1', label: '2023.1'},
+    {value: '2023.2', label: '2023.2'},
+    {value: '2024.1', label: '2024.1'},
+    {value: '2024.2', label: '2024.2'},
+    {value: '2025.1', label: '2025.1'},
+    {value: '2025.2', label: '2025.2'},
   
   
   ]
@@ -56,7 +56,7 @@ function Filtros () {
         <Bloco>
             <div id="filtragem">
                 <h2 id="filtrar-por">Filtrar por:</h2>
-                <h2 id="limpar-filtro">Limpar Filtros</h2>
+                <button id="limpar-filtro">Limpar Filtros</button>
             </div>
             <div class="grid-container">
                 <Select options={options1} placeholder='Tecnologias' className='select'/>
