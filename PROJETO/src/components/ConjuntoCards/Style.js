@@ -8,6 +8,7 @@ const Bloco = styled.div`
     margin-top: 5px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
     /* #teste {    

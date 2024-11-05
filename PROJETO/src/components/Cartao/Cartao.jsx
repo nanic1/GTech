@@ -19,7 +19,7 @@ function Cartao(props) {
                     </ul>
                 </div>
                 <div id="botao">
-                    <button id="texto">{props.texto}</button>
+                    <button id="texto">Saiba Mais</button>
                 </div>
                     
 
