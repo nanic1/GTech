@@ -1,4 +1,4 @@
-import {Bloco, Bloco2, Bloco3} from "./Style"
+import {Bloco, Bloco2, Bloco3, Container3} from "./Style"
 import dados from "../../data/projetos.json";
 import Cartao from "../Cartao/Cartao";
 import { Link, useParams, useSearchParams } from "react-router-dom";
@@ -64,12 +64,27 @@ function ConjuntoCards () {
   const [periodo, setPeriodo] = useState(null);
   const [curso, setCurso] = useState(null);
 
+  const [paginaAtual, setPaginaAtual] = useState(1);
+  const cardsPorPagina = 8;
+
+  const indiceUltimoCard = paginaAtual * cardsPorPagina;
+  const indicePrimeiroCard = indiceUltimoCard - cardsPorPagina;
+  const dadosPaginaAtual = dados.slice(indicePrimeiroCard, indiceUltimoCard);
+
+  const numeroTotalPaginas = Math.ceil(dados.length / cardsPorPagina);
+
+  const irParaPagina = (numero) => {
+    setPaginaAtual(numero);
+  };
+
+
   const filtra = (entrada) => {
     setDados(brutos.filter(
      (ele) =>{
-      return ele.titulo.toLowerCase().includes(entrada.toLowerCase())
+      return ele.titulo.toLowerCase().includes(entrada.toLowerCase()) || ele.curso.toLowerCase().includes(entrada.toLowerCase()) || ele.unidade.toLowerCase().includes(entrada.toLowerCase()) || ele.tecnologias.toLowerCase().includes(entrada.toLowerCase()) || ele.data.toLowerCase().includes(entrada.toLowerCase()) || ele.periodo.toLowerCase().includes(entrada.toLowerCase())
      } 
     ))
+    setPaginaAtual(1);
   }
   const { id } = useParams();
 
@@ -105,6 +120,7 @@ function ConjuntoCards () {
     });
 
     setDados(resultadoFiltrado);
+    setPaginaAtual(1);
   }, [searchParams]);
 
   const limparFiltros = () => {
@@ -115,15 +131,17 @@ function ConjuntoCards () {
     setData(null);
     setPeriodo(null);
     setCurso(null);
+    setPaginaAtual(1);
   };
 
-  let dadosFiltrados;
-  
-  if (id) {
-    dadosFiltrados = dados.filter((elemento) => elemento.id === parseInt(id));
-  } else {
-    dadosFiltrados = dados;
-  }
+  useEffect(() => {
+    if (id) {
+      setDados((prevDados) => prevDados.filter((elemento) => elemento.id === parseInt(id)));
+    } else {
+      setDados(brutos);
+    }
+  }, [id]);
+
     return (
       <>
       <Bloco3>
@@ -131,6 +149,7 @@ function ConjuntoCards () {
                 <h2 id="filtrar-por">Filtrar por:</h2>
               <button onClick={limparFiltros} id="limpar-filtro">Limpar Filtros</button>
             </div>
+          <div id="filtrageem">
             <div class="grid-container">
                 <Select options={options1} placeholder='Tecnologias' className='select' value={tecnologia} onChange={(option) => handleSelectChange(option, setTecnologia, "tecnologia")}/>
                 <Select options={options2} placeholder='Unidade' className='select' value={unidade} onChange={(option) => handleSelectChange(option, setUnidade, "unidade")}/>
@@ -139,6 +158,7 @@ function ConjuntoCards () {
                 <Select options={options5} placeholder='Curso' className='select' value={curso} onChange={(option) => handleSelectChange(option, setCurso, "curso")}/>
                 
             </div>
+          </div>
       </Bloco3>
 
       <Bloco2>
@@ -151,16 +171,31 @@ function ConjuntoCards () {
         </div>
       </Bloco2>
         <Bloco>
-                {dadosFiltrados.map((item, index) => (
+                {dadosPaginaAtual.map((item, index) => (
                     <Link to={`/projetos/${item.id}`}
                     id="no-underline">
                     <Cartao titulo={item.titulo}
-                    curso={item.texto} tecnologias={item.tecnologias} periodo={item.data} imagem={item.imagem} unidade={item.unidade} curso={item.curso}/>
+                    curso={item.curso} tecnologias={item.tecnologias} periodo={item.periodo} imagem={item.imagem} unidade={item.unidade} data={item.data}/>
                     </Link>
                 ))}
     
         </Bloco>
-      </>
-    )
+        <Container3>
+      
+        <div className="paginacao">
+          {Array.from({ length: numeroTotalPaginas }, (_, index) => (
+            <button
+              key={index}
+              onClick={() => irParaPagina(index + 1)}
+              className={paginaAtual === index + 1 ? 'ativo' : ''}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+      </Container3>
+    </>
+  );
 }
+
 export default ConjuntoCards

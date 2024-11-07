@@ -56,7 +56,7 @@ const Top = styled.header`
       height: 2em;
     }
   }
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1300px) {
     #sobre-nos{
       display: flex;
       justify-content: center;

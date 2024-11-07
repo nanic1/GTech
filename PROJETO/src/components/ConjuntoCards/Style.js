@@ -78,8 +78,10 @@ const Bloco2 = styled.div`
 `;
 
 const Bloco3 = styled.div`
-margin-left: 100px;
+@media (min-width: 1000px) {
+    margin-left: 100px;
     margin-right: 100px;
+}
     padding-top: 20px;
     padding-bottom: 20px;
     color: black;
@@ -94,14 +96,32 @@ margin-left: 100px;
     }
 @media screen and (min-width: 360px) {
     .grid-container{
-        display:none;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #filtrageem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #filtragem{
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;;
     }
     #limpar-filtro {
         border: 0;
         background-color: white;
         font-family: 'Lora', serif;
         font-weight: bolder;
-        font-size: 21px;
+        font-size: 17px;
     }
 @media screen and (min-width: 834px) {
     .grid-container{
@@ -123,7 +143,7 @@ margin-left: 100px;
         font-weight: bolder;
         font-size: 21px;
     }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
     .grid-container{
         display: grid;
         grid-template-columns:auto auto auto auto auto;
@@ -148,6 +168,31 @@ margin-left: 100px;
 }
 }}
 `
+const Container3 = styled.div `
+.paginacao {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+.paginacao button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-export {Bloco, Bloco2, Bloco3}
+.paginacao button.ativo {
+  background-color: #FFA500; /* Cor amarela para a página ativa */
+  color: white;
+}
+
+`
+
+export {Bloco, Bloco2, Bloco3, Container3}
