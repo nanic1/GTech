@@ -116,7 +116,7 @@ const Footer = styled.div`
     gap: 10px;
     }
 }
-    @media screen and (min-width: 1440px) { 
+    @media screen and (min-width: 1300px) { 
     #unidade p::before{
         content: "";
         display: inline-block;
@@ -129,7 +129,7 @@ const Footer = styled.div`
     #unidade p::after{
         content: "";
         display: inline-block;
-        width: 1200px; 
+        width: 1000px; 
         height: 1px; 
         background-color: black; 
         vertical-align: middle;
