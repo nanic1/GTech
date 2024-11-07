@@ -16,6 +16,8 @@ function Cartao(props) {
                         <li><p className="descricao">{props.curso}</p></li>
                         <li><p className="descricao">{props.tecnologias}</p></li>  
                         <li><p className="descricao">{props.periodo}</p></li>
+                        <li><p className="descricao">{props.unidade}</p></li>
+                        <li><p className="descricao">{props.curso}</p></li>
                     </ul>
                 </div>
                 <div id="botao">
