@@ -15,19 +15,20 @@ const Base1 = styled.div`
     button {
         border: 0;
         background-color: #F5AC00;
-        border-radius: 15px;
+        border-radius: 10px;
         font-family: "Inter";
         font-weight: 500;
-        font-size: 14pt;
-        height: 60px;
-        width: 125px;
-        
+        font-size: 12pt;
+        height: 45px;
+        width: 150px;
+        margin-top: 10px;
+        margin-right: 70px;
         cursor: pointer;
 
     }
     img {
         height: 60px;
-
+        margin-left: 70px;
     }
 `;
 

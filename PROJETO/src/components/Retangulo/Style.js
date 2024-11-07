@@ -19,12 +19,12 @@ const Bloco = styled.div`
         color: #E0E6EC;
         font-family: "Inter"
     }
-    @media (min-width: 1440px) {
+    @media (min-width: 1300px) {
         padding-left: 100px;
         padding-right: 100px; 
     }
     @media (min-width: 359px) {
-        padding-left: 10px;
+        padding-left: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
         .inicio {
