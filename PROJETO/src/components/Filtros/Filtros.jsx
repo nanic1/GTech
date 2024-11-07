@@ -41,7 +41,7 @@ const options1 = [
   
   ]
   const options5 = [
-    {value: 'Ciência de Dados', label: 'Ciência de dados'},
+    {value: 'Ciência de dados e IA', label: 'Ciência de dados e IA'},
     {value: 'Engenharia de Software', label: 'Engenharia de Software'},
     {value: 'ADS', label: 'ADS'},
     {value: 'Engenharia da Computação', label: 'Engenharia da Computação'},

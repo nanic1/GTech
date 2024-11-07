@@ -22,14 +22,25 @@ const Base1 = styled.div`
         height: 45px;
         width: 150px;
         margin-top: 10px;
-        margin-right: 70px;
         cursor: pointer;
 
     }
     img {
         height: 60px;
-        margin-left: 70px;
     }
+    @media screen and (min-width: 360px) {
+    button {
+        display: block;
+        height: 35px;
+        width: 110px;
+        margin-top:15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    }
+
 `;
+
 
 export {Base1}

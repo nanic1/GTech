@@ -17,7 +17,7 @@ const estiloInline = {
     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', // shadow-2 (ajuste conforme necessário)
   };
 
-function CircularDemo({ imagem, imagem2, imagem3 }) {
+function CircularDemo({ imagem, imagem2, imagem3, imagem4 }) {
     const [images, setImages] = useState([]);
 
     const responsiveOptions = [
@@ -45,8 +45,8 @@ function CircularDemo({ imagem, imagem2, imagem3 }) {
 
     useEffect(() => {
         // Define a lista de URLs das imagens a partir das props
-        setImages([imagem, imagem2, imagem3]);
-    }, [imagem, imagem2, imagem3]);
+        setImages([imagem, imagem2, imagem3,imagem4]);
+    }, [imagem, imagem2, imagem3, imagem4]);
 
     const imageTemplate = (imageUrl) => {
         return (
@@ -60,7 +60,7 @@ function CircularDemo({ imagem, imagem2, imagem3 }) {
         <div className="card">
             <Carousel 
                 value={images} 
-                numVisible={3} 
+                numVisible={4} 
                 numScroll={1} 
                 responsiveOptions={responsiveOptions} 
                 className="custom-carousel" 

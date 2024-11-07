@@ -15,11 +15,12 @@ const options1 = [
 
 ]
 const options2 = [
-  {value: 'Rio-Barra', label: 'Rio-Barra'},
-  {value: 'Rio-Centro', label: 'Rio-Centro'},
-  {value: 'Belo Horizonte', label: 'Belo Horizonte'},
-  {value: 'São Paulo', label: 'São Paulo'},
-  {value: 'Brasilia', label: 'Brasilia'},
+  {value: 'RJ-Barra', label: 'RJ-Barra'},
+  {value: 'RJ-Centro', label: 'RJ-Centro'},
+  {value: 'SP-Paulista', label: 'SP-Paulista'},
+  {value: 'SP-Faria Lima', label: 'SP-Faria Lima'},
+  {value: 'MG-Belo Horizonte', label: 'MG-Belo Horizonte'},
+  {value: 'DF-Brasília', label: 'DF-Brasília'},
 
 ]
 const options3 = [
@@ -35,7 +36,7 @@ const options3 = [
 const options4 = [
   {value: '1º Período', label: '1º Período'},
   {value: '2º Período', label: '2º Período'},
-  {value: '3º Periodo', label: '3º Periodo'},
+  {value: '3º Período', label: '3º Período'},
   {value: '4º Período', label: '4º Período'},
   {value: '5º Período', label: '5º Período'},
   {value: '6º Período', label: '6º Período'},
@@ -44,7 +45,7 @@ const options4 = [
 
 ]
 const options5 = [
-  {value: 'Ciência de Dados', label: 'Ciência de dados'},
+  {value: 'Ciência de dado e IA', label: 'Ciência de dados e IA'},
   {value: 'Engenharia de Software', label: 'Engenharia de Software'},
   {value: 'ADS', label: 'ADS'},
   {value: 'Engenharia da Computação', label: 'Engenharia da Computação'},

@@ -39,7 +39,8 @@ const Top = styled.header`
       display: block;
       width: 80%;
       margin: 0 auto;
-      height: 2em;
+      height: 1em;
+      padding: 7px; 
     }
   }
   @media screen and (min-width: 834px) { /*sobrescrever o codigo acima, para quando a largura for 360 */

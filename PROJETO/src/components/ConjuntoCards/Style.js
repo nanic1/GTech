@@ -101,6 +101,7 @@ const Bloco3 = styled.div`
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
     #filtrageem{
         display: flex;
@@ -123,25 +124,37 @@ const Bloco3 = styled.div`
         font-weight: bolder;
         font-size: 17px;
     }
+    .select {
+        width: 150px;
+    }
 @media screen and (min-width: 834px) {
     .grid-container{
-        display: grid;
-        grid-template-columns:
-        "auto"
-        "auto"
-        ;
+        display: flex;
+        flex-direction: row;
         gap: 10px;
         padding: 10px;
     }
     #filtragem{
-        display:block;
+        font-size: 12px;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        grid-template-columns:
+        "auto auto auto"
+        "auto auto"
+        ;
+    }
+    .select{
+        width: 150px;
     }
     #limpar-filtro {
         border: 0;
         background-color: white;
         font-family: 'Lora', serif;
         font-weight: bolder;
-        font-size: 21px;
+        font-size: 17px;
+
     }
 @media screen and (min-width: 1300px) {
     .grid-container{
@@ -164,6 +177,9 @@ const Bloco3 = styled.div`
         font-weight: bolder;
         font-size: 21px;
         cursor: pointer;
+    }
+    .select{
+        width: 180px;
     }
 }
 }}

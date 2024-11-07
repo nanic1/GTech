@@ -9,7 +9,7 @@ const ParteAzul2 = (props) => {
             <p>Integrantes: nome do aluno | email | curso  </p> 
         </div>
         <div id="linguagens">
-            <p>Linguagens e Tecnologias:</p>
+            <p>Linguagens e Tecnologias: {props.tecnologias}</p>
         </div>
         <div id="Data">
             <p>Data do Projeto:</p>

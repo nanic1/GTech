@@ -17,13 +17,9 @@ const Bloco = styled.div`
     .inicio {
         text-decoration: none;
         color: #E0E6EC;
-        font-family: "Inter"
+        font-family: "Inter";
     }
-    @media (min-width: 1300px) {
-        padding-left: 100px;
-        padding-right: 100px; 
-    }
-    @media (min-width: 359px) {
+    @media (min-width: 360px) {
         padding-left: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -36,7 +32,23 @@ const Bloco = styled.div`
         h2 {
             padding-top: 10px;
         }
+        #baixo p{
+            font-size: 12px;
+        }  
     }
+    @media (min-width: 1300px) {
+        padding-left: 100px;
+        padding-right: 100px; 
+        #baixo p{
+            font-size: 20px;
+        }
+        #navCima{
+            font-size: 14px;
+        .inicio{
+            font-size: 14px;
+        }
+    }
+}
 `;
 
 
