@@ -56,7 +56,10 @@ const Teste = styled.div `
         font-size: 13px;
     }
     ul {
-        padding-left: 28px;
+        p{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
     }
 `
 export default Teste
