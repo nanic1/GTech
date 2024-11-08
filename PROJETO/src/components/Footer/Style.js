@@ -7,7 +7,7 @@ const Footer = styled.div`
     text-align: center;
     margin-bottom: 20px 0;
     display: flex;
-    padding-top: 30px;
+    padding-top: 8px;
     }
     #unidade p{
         display: inline-block;
@@ -39,17 +39,6 @@ const Footer = styled.div`
     .amarelo{
         color: rgba(245, 172, 0, 1); 
     }
-    /* #conteiner{
-    font-size: 10px;
-    margin: 0 12px;
-    background-color: white;
-    align-items: center;   
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 10px; */
     }
     @media screen and (min-width: 360px) { 
     #unidade p::before{

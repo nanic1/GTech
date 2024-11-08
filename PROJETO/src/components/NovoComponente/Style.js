@@ -15,10 +15,25 @@ const Estilo = styled.div`
    img{
    text-align: center;
    height: 100px;
-
-   }
+   
+}
+#nosso-time{
+   font-size: 20px;
+   color: black;
+   margin-top: 50px;
+   background-color: #F5AC00;
+   border-radius: 20px;
+   height: 35px;
+   width: 140px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
    #integrantes {
-      margin-top: 50px;
+      margin-top: 300px;
+      margin-bottom: 150px;
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -31,8 +46,14 @@ const Estilo = styled.div`
       }
       .foto {
          border-radius: 100px;
-         height: 200px;
-         width: 200px;
+         height: 150px;
+         width: 150px;
+         box-shadow: 0 0 15px rgba(0, 0, 0, 1.5);
+
+
+      }
+      .textos{
+         line-height: 1.5px;
       }
       #bloco {
          margin-top: 50px;
@@ -43,7 +64,41 @@ const Estilo = styled.div`
       justify-content: space-around; 
       }
    }
-   
+   @media screen and (max-width: 360px) { 
+      body {
+         overflow: auto !important;
+      }
+      #nosso-time {
+      display: none;
+      }
+      #integrantes {
+         margin-top: 150px;
+      }
+      .textos{
+         font-size: 14px;
+      }
+   }
+@media screen and (min-width: 834px) { 
+      #nosso-time {
+         height: 35px; 
+         width: 130px; 
+      }
+
+      #nosso-time a {
+         font-size: 16px; 
+      }
+   }
+
+   @media screen and (min-width: 1300px) { 
+      #nosso-time {
+         height: 50px; 
+         width: 150px; 
+      }
+
+      #nosso-time a {
+         font-size: 20px; 
+      }
+   }
 `;
 
 export default Estilo

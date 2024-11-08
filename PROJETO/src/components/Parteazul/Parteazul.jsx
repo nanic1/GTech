@@ -10,10 +10,9 @@ const Parteazul = (props) => {
     <Conteiner>
         <div id="Projeto">
             <h2> Projeto {props.id}</h2>
-           <CircularDemo imagem="imagens/projeto1.png"
-            imagem2="imagens/react-foto.jpg"
-            imagem3="imagens/react2.jpg"
-            imagem4={props.imagem4} >
+           <CircularDemo imagem={props.imagem}
+            imagem2={props.imagem2}
+            imagem3={props.imagem3} >
 
             
             </CircularDemo> 

@@ -4,6 +4,9 @@ import Card from "../Card/Card";
 
 
 function Cartao(props) {
+
+    const cursos = [props.curso, props.curso2, props.curso3].filter(curso => curso); // para filtrar os filtros vazios
+
     return(
         <> 
             <Teste>
@@ -13,7 +16,7 @@ function Cartao(props) {
                 </div>
                 <div id="caracteristicas">
                     <ul>
-                        <li><p className="descricao">{props.curso}</p></li>
+                        <li><p className="descricao">{cursos.join(', ')}</p></li>
                         <li><p className="descricao">{props.tecnologias}</p></li>  
                         <li><p className="descricao">{props.periodo}</p></li>
                         <li><p className="descricao">{props.data}</p></li>

@@ -5,12 +5,17 @@ const Base1 = styled.div`
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
+    position: sticky;
+    top: -1px;
+    z-index: 10;
+    margin-top: -2 px;
     #header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
     }
     button {
         border: 0;

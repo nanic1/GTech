@@ -64,6 +64,8 @@ function ConjuntoCards () {
   const [data, setData] = useState(null);
   const [periodo, setPeriodo] = useState(null);
   const [curso, setCurso] = useState(null);
+  const [curso2, setCurso2] = useState(null);
+  const [curso3, setCurso3] = useState(null);
 
   const [paginaAtual, setPaginaAtual] = useState(1);
   const cardsPorPagina = 8;
@@ -176,7 +178,7 @@ function ConjuntoCards () {
                     <Link to={`/projetos/${item.id}`}
                     id="no-underline">
                     <Cartao titulo={item.titulo}
-                    curso={item.curso} tecnologias={item.tecnologias} periodo={item.periodo} imagem={item.imagem} unidade={item.unidade} data={item.data}/>
+                    curso={item.curso} curso2={item.curso2} curso3={item.curso3} tecnologias={item.tecnologias} periodo={item.periodo} imagem={item.imagem} unidade={item.unidade} data={item.data}/>
                     </Link>
                 ))}
     

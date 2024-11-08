@@ -10,6 +10,24 @@ const Detalhes = styled.div`
     padding-bottom: 30px;
     font-family: "Open sans";
     font-weight: 500;
-    font-size: 14pt; 
-`
-export default Detalhes
+    font-size: 18px; 
+    @media screen and (min-width: 360px) {
+    
+    }
+    }
+    @media screen and (min-width: 834px) {
+    .outros{
+        margin-Left:108px;
+    }
+    .primeiro{
+        white-space: normal;
+    }
+    }
+    @media screen and (min-width: 1300px) {
+    .outros{
+        margin-Left:112px;
+    }
+    }
+
+`;
+export default Detalhes;

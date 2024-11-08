@@ -18,7 +18,7 @@ const estiloInline = {
   };
 
 function CircularDemo({ imagem, imagem2, imagem3, imagem4 }) {
-    const [images, setImages] = useState([]);
+    const [imagens, setImages] = useState([]);
 
     const responsiveOptions = [
         {
@@ -45,8 +45,8 @@ function CircularDemo({ imagem, imagem2, imagem3, imagem4 }) {
 
     useEffect(() => {
         // Define a lista de URLs das imagens a partir das props
-        setImages([imagem, imagem2, imagem3,imagem4]);
-    }, [imagem, imagem2, imagem3, imagem4]);
+        setImages([imagem, imagem2, imagem3]);
+    }, [imagem, imagem2, imagem3]);
 
     const imageTemplate = (imageUrl) => {
         return (
@@ -59,8 +59,8 @@ function CircularDemo({ imagem, imagem2, imagem3, imagem4 }) {
     return (
         <div className="card">
             <Carousel 
-                value={images} 
-                numVisible={4} 
+                value={imagens} 
+                numVisible={3} 
                 numScroll={1} 
                 responsiveOptions={responsiveOptions} 
                 className="custom-carousel" 
@@ -72,79 +72,3 @@ function CircularDemo({ imagem, imagem2, imagem3, imagem4 }) {
     );
 }
 export default CircularDemo;
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function Carrossel() {
-
-//     const breakPoints = [
-//         {width: 1, itemToShow: 1},
-//         {width: 550, itemToShow: 2, itemToScroll: 2},
-//         {width: 768, itemToShow: 3},
-//         {width: 1200, itemToShow: 4},
-//     ]
-//     const   [items, setItems] = useState()
-
-
-
-//     return(
-//      <div className='conteiner'>
-//         <div className='controle-wrapper'>
-
-//         </div>
-//         <hr className='saparador'/>
-//         <div className='carrossel-wrapper'>
-
-//         </div>
-//      </div>
-//     );
-// };
-
-
-
-
-
-
-
-// import 'bootstrap/dist/css/bootstrap.css';
-// import Carousel  from 'react-bootstrap/Carousel';
-  
-// function App() {
-//   return (
-//     <div style={{display:"block", width: 700, padding: 30}}>
-//       <Carousel>
-//         <Carousel.Item interval={1500}> 
-//           <img
-//             className="d-block w-100"
-//             src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-//             alt="Image One"
-//           />
-//         </Carousel.Item>
-//         <Carousel.Item interval={1500}>
-//           <img
-//           className="d-bloco w-100"
-//             src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-//             alt="Image Two"
-//           />
-//         </Carousel.Item>
-//       </Carousel>
-//     </div>
-//   );
-// }
-
-// export default App;
