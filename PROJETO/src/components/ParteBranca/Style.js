@@ -17,16 +17,12 @@ const Descricao = styled.div`
         color: black;
     }
     @media screen and (max-width: 360px) {
+        padding-left: 20px  ;
+        padding-right: 20px ;
+    }
     #titulo{
-        padding-left: 10px  !important;
-        padding-right: 10px !important;
-        background-color: red;
+        text-align: center;
     }
-    #texto{
-        padding-left: 10px !important;
-        padding-right: 10px !important;   
-    }
-    }
-`
+`;
 
 export default Descricao

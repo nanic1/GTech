@@ -5,7 +5,7 @@ const ParteAzul2 = (props) => {
 
     return(
     <Detalhes>
-        <div>
+        <div id="descricao">
         <p id="integrantes">
                     {props.nome && props.email && props.curso && (
                         <>Integrantes: <span className="primeiro"></span>{props.nome} | {props.email} | {props.curso} <br /></>
