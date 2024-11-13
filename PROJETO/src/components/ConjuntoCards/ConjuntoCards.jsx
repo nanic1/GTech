@@ -124,6 +124,7 @@ function ConjuntoCards () {
       );
     });
 
+
     setDados(resultadoFiltrado);
     setPaginaAtual(1);
   }, [searchParams]);

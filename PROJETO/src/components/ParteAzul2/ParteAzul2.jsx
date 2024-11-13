@@ -7,8 +7,8 @@ const ParteAzul2 = (props) => {
     <Detalhes>
         <div id="descricao">
         <p id="integrantes">
-                    {props.nome && props.email && props.curso && props.periodo &&(
-                        <>Integrantes: <span className="primeiro"></span>{props.nome} | {props.email} | {props.curso} | {props.periodo}<br /></>
+                    {props.nome && props.email && props.curso && props.periodo2 &&(
+                        <>Integrantes: <span className="primeiro"></span>{props.nome} | {props.email} | {props.curso} | {props.periodo2}<br /></>
                     )}
                     {props.nome2 && props.email2 && props.curso2 && props.periodo &&(
                         <> <span className="outros"></span>{props.nome2} | {props.email2} | {props.curso2} | {props.periodo}<br/> </>
