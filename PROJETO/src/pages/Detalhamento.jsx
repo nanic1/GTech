@@ -25,7 +25,7 @@ function Detalhamento() {
                 <Parteazul id={projeto.id} imagem={projeto.imagem} imagem2={projeto.imagem2} imagem3={projeto.imagem3}/>
                 <ParteBranca descricao={projeto.descricao} id={projeto.id}/>
                 <ParteAzul2 tecnologias={projeto.tecnologias} data={projeto.data} unidade={projeto.unidade} curso={projeto.curso} nome={projeto.nome} 
-                email={projeto.email} nome2={projeto.nome2} nome3={projeto.nome3} curso2={projeto.curso2} curso3={projeto.curso3} email2={projeto.email2} email3={projeto.email3}/>
+                email={projeto.email} nome2={projeto.nome2} nome3={projeto.nome3} curso2={projeto.curso2} curso3={projeto.curso3} email2={projeto.email2} email3={projeto.email3} periodo={projeto.periodo}/>
             </Base>
     
             <DetalhamentoProjetos/>

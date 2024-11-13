@@ -7,14 +7,14 @@ const ParteAzul2 = (props) => {
     <Detalhes>
         <div id="descricao">
         <p id="integrantes">
-                    {props.nome && props.email && props.curso && (
-                        <>Integrantes: <span className="primeiro"></span>{props.nome} | {props.email} | {props.curso} <br /></>
+                    {props.nome && props.email && props.curso && props.periodo &&(
+                        <>Integrantes: <span className="primeiro"></span>{props.nome} | {props.email} | {props.curso} | {props.periodo}<br /></>
                     )}
-                    {props.nome2 && props.email2 && props.curso2 && (
-                        <> <span className="outros"></span>{props.nome2} | {props.email2} | {props.curso2} <br/> </>
+                    {props.nome2 && props.email2 && props.curso2 && props.periodo &&(
+                        <> <span className="outros"></span>{props.nome2} | {props.email2} | {props.curso2} | {props.periodo}<br/> </>
                     )}
-                    {props.nome3 && props.email3 && props.curso3 && (
-                        <> <span className="outros"></span> {props.nome3} | {props.email3} | {props.curso3} </>
+                    {props.nome3 && props.email3 && props.curso3 && props.periodo &&(
+                        <> <span className="outros"></span> {props.nome3} | {props.email3} | {props.curso3} | {props.periodo} </>
                     )}
         </p>
         </div>
