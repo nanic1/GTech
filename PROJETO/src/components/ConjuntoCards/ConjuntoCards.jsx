@@ -51,6 +51,8 @@ const options5 = [
   {value: 'Engenharia da Computação', label: 'Engenharia da Computação'},
   {value: 'Arquitetura', label: 'Arquitetura'},
   {value: 'Publicidade e Propaganda', label: 'Publicidade e Propaganda'},
+  {value: 'Marketing', label: 'Marketing'},
+  {value: 'Design Gráfico', label: 'Design Gráfico'},
 
 ]
 

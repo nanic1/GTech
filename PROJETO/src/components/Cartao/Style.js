@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Teste = styled.div `
-    height: min-content;
+    height: fit-content;
     margin-top: 30px;
     background-color: #f5f5f5;
     width: 250px;
