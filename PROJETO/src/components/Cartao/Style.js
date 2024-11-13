@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Teste = styled.div `
-    height: fit-content;
+    height: 400px;
     margin-top: 30px;
     background-color: #f5f5f5;
     width: 250px;
@@ -37,6 +37,7 @@ const Teste = styled.div `
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        height: 170px
     }
     #projeto {
         display: flex;
