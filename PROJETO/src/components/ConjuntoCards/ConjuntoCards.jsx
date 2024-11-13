@@ -45,7 +45,7 @@ const options4 = [
 
 ]
 const options5 = [
-  {value: 'Ciência de dado e IA', label: 'Ciência de dados e IA'},
+  {value: 'Ciência de dados e IA', label: 'Ciência de dados e IA'},
   {value: 'Engenharia de Software', label: 'Engenharia de Software'},
   {value: 'ADS', label: 'ADS'},
   {value: 'Engenharia da Computação', label: 'Engenharia da Computação'},
@@ -119,8 +119,8 @@ function ConjuntoCards () {
         (filtroUnidade ? elemento.unidade.replace(/\s+/g, '').toLowerCase().includes(filtroUnidade.replace(/\s+/g, '').toLowerCase()) : true) &&
         (filtroData ? elemento.data.replace(/\s+/g, '').toLowerCase().includes(filtroData.replace(/\s+/g, '').toLowerCase()) : true) &&
         (filtroPeriodo ? elemento.periodo.replace(/\s+/g, '').toLowerCase().includes(filtroPeriodo.replace(/\s+/g, '').toLowerCase()) : true) &&
-        (filtroCurso ? elemento.curso.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) : true) 
-
+        (filtroCurso ? elemento.curso.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) || elemento.curso2.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) : true)
+   
       );
     });
 
