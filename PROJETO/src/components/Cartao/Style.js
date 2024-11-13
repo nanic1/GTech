@@ -37,7 +37,8 @@ const Teste = styled.div `
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        height: 170px
+        height: 170px;
+        padding-right: 30px;
     }
     #projeto {
         display: flex;

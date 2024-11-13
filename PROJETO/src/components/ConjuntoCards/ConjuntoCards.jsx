@@ -119,7 +119,7 @@ function ConjuntoCards () {
         (filtroUnidade ? elemento.unidade.replace(/\s+/g, '').toLowerCase().includes(filtroUnidade.replace(/\s+/g, '').toLowerCase()) : true) &&
         (filtroData ? elemento.data.replace(/\s+/g, '').toLowerCase().includes(filtroData.replace(/\s+/g, '').toLowerCase()) : true) &&
         (filtroPeriodo ? elemento.periodo.replace(/\s+/g, '').toLowerCase().includes(filtroPeriodo.replace(/\s+/g, '').toLowerCase()) : true) &&
-        (filtroCurso ? elemento.curso.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) || elemento.curso2.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) : true)
+        (filtroCurso ? elemento.curso.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) || elemento.curso2.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) || elemento.curso3.replace(/\s+/g, '').toLowerCase().includes(filtroCurso.replace(/\s+/g, '').toLowerCase()) : true) 
    
       );
     });
