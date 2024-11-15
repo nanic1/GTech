@@ -18,7 +18,7 @@ const Conteiner = styled.div`
         font-family: "Open Sans";
         font-size: 12pt;
     }
-    img {
+    .img {
         height: 300px;
         padding-top: 20px;
         padding-bottom: 20px;

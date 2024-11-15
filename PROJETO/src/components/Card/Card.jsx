@@ -10,7 +10,7 @@ const Card = (props) => (
             </div>
             <img></img>
             <div id='baixo'>
-                <p>{props.texto}</p>
+                <p>{props.curso}</p>
             </div>
             <Link to='/detalhamento' id="botao">
                 <button>Ver Mais</button>

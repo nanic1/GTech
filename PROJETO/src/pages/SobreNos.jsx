@@ -4,16 +4,6 @@ import NovoComponente from "../components/NovoComponente/NovoComponente";
 import Base from "./Base";
 // import ListContainer from "../components/ListContainer/ListContainer";
 
-/*const MeusDados = [
-    {
-        titulo:"titulo ",
-        texto:"texto pequeno"
-    },
-    {
-        titulo:"mais um titulo",
-        texto:" posso criar quando eu quiser"
-    }
-]*/
 
 const SobreNos = () =>(
     <Base>

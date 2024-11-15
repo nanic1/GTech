@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 const Descricao = styled.div`
     background-color: white;
-    width: 1440;
-    height: 579;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 30px;
@@ -18,9 +16,13 @@ const Descricao = styled.div`
         font-size: 12pt;
         color: black;
     }
-    /* font-family: "Inter";
-    font-weight: 500;
-    font-size: 14pt; */
-`
+    @media screen and (max-width: 360px) {
+        padding-left: 20px  ;
+        padding-right: 20px ;
+    }
+    #titulo{
+        text-align: center;
+    }
+`;
 
 export default Descricao
